@@ -8,11 +8,11 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~6dhwgRCK#bgjWzfj0tCgS9P9bZBfVcGVJ1ejvt7jBwv9czncjFnQ",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~pdZwiJAS#1HgNl1t6jIYPrOAGi_taXfVueBhHE9II6-1dpbyOR34",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
  //make true if you want auto sticker   
@@ -34,15 +34,15 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/frns4k.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "⚔️",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ME PLUG",
+BOT_NAME: process.env.BOT_NAME || "𝔐𝔈  ⚔ 𝔓𝔏𝔘𝔊 ☠︎︎𝐓.𝐖",
 // add bot name here for menu
-STICKER_NAME: process.env.STICKER_NAME || "ME PLUG",
+STICKER_NAME: process.env.STICKER_NAME || "𝔐𝔈  ⚔ 𝔓𝔏𝔘𝔊 ☠︎︎𝐓.𝐖",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custom emoji react    
-CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "☠︎︎.🩸,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // choose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links without removing member 
@@ -68,7 +68,7 @@ ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // kick user if share link 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // auto voice messages
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // auto stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // automatic text reply 
